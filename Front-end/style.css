@@ -1,0 +1,118 @@
+/* HTML elements */
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0;
+    background-color: rgb(98 98 98);
+    height: 100%;
+}
+
+header {
+    background-color: rgb(253 178 1);
+    padding: 1px;
+}
+
+aside{
+    height: max-content;
+    float: left;
+    width: 20%;
+    background-color: rgb(141 141 141);
+    border: 1px solid rgb(0 0 0);
+    margin-top: 5%;
+}
+
+main {
+    background-color: rgb(141 141 141);
+    padding: 2px;
+    border: 1px solid rgb(0 0 0);
+    min-height: 80vh;
+    width: 80%;
+}
+
+footer {
+    background-color: rgb(0 0 0);
+    padding: 1px;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(253 178 1);
+    text-align: center;
+    margin: 0;
+}
+
+h6 {
+    font-size: 16px;
+    color: rgb(253 178 1);
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+p {
+    color: rgb(252 252 252);
+    text-align: justify;
+}
+
+
+
+/* classes */
+
+.websiet-name{
+    font-size: 32px;
+    line-height: 32px;
+    color: rgb(252 252 252);
+    text-align: center;
+}
+
+.page-name{
+    font-size: 24px;
+    color: rgb(252 252 252);
+    text-align: center;
+    line-height: 24px;
+}
+
+.gallery{
+    display: inline-block;
+    justify-items: center;
+}
+
+.main-foto img{
+    width: 20%;
+    float: left;
+    height: auto;
+    border-radius: 80%;
+    border: 1px solid rgb(0 0 0);
+}
+
+.gallery img{
+    width: 30%;
+    height: auto;
+    border-radius: 80%;
+    border: 1px solid rgb(0 0 0);
+}
+
+.short-info{
+    margin-left: 22%;
+}
+
+.main-ul{
+    color: rgb(252 252 252);
+    text-align: justify;
+    list-style-type: none;
+}
+
+.content{
+    display: flex;
+}
+
+
+
+
+
+
